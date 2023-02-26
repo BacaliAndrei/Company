@@ -24,6 +24,7 @@ public class CompanyConvertor {
         companyInfoDTO.setEmail(companyEntity.getEmail());
         companyInfoDTO.setName(companyEntity.getName());
         companyInfoDTO.setPhoneNumber(companyEntity.getPhoneNumber());
+        companyInfoDTO.setRegistrationNumber(companyEntity.getRegistrationNumber());
 
         return companyInfoDTO;
     }
